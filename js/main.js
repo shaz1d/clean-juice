@@ -50,6 +50,12 @@ var swiper = new Swiper(".product-container", {
   },
 });
 
+/*==================== SHOW SCROLL TOP ====================*/
+const scrollTop = document.getElementById("scroll-top");
+scrollTop.addEventListener("click", () => {
+  window.scrollTo(0, 0);
+});
+
 // Scroll Reveal Animation
 const sr = ScrollReveal({
   distance: "100px",
