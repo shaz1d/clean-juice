@@ -255,7 +255,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   padding: 0 5%;
-
+  padding-top: 30px;
   margin-bottom: 40px;
 }
 .tagline {
@@ -263,7 +263,7 @@ nav {
   font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
   color: #999;
   position: absolute;
-  top: 5%;
+  top: 11%;
   left: 12%;
 }
 .pages {
@@ -271,7 +271,7 @@ nav {
   letter-spacing: 5px;
   color: #999;
   position: absolute;
-  top: 4%;
+  top: 11%;
   right: 12%;
 }
 .pages span {
@@ -446,6 +446,7 @@ nav {
 .app-section {
   width: 80%;
   margin: 70px auto;
+  padding-top: 40px;
 }
 .col-2 {
   display: flex;
@@ -506,6 +507,7 @@ nav {
 }
 
 .product-section {
+  padding-top: 100px;
   margin-top: 40px;
 }
 .product-section h1 {
@@ -523,6 +525,7 @@ nav {
   display: flex;
   align-items: flex-end;
   width: 100%;
+
   padding-bottom: 50px;
 }
 .content-box {
@@ -595,6 +598,7 @@ nav {
 /* Blog Section */
 .blog-section {
   margin: 70px auto;
+  padding-top: 100px;
   width: min(90%, 80rem);
 }
 .blog-section h1 {
@@ -654,7 +658,7 @@ nav {
 /* Location Section */
 .location-section {
   margin: 70px auto;
-  padding-top: 40px;
+  padding-top: 50px;
   width: min(90%, 80rem);
 }
 .location-div {
